@@ -1,0 +1,161 @@
+.who-we-are{
+    position: relative;
+    background-color: #c3d9d3d8;
+    color:#37423f ;
+}
+
+.about h1{
+    padding: 5vw 5vw 3vw;
+    font-size: 5vw;
+    font-weight: 200;
+    color: #5db9ac;
+
+    font-weight: 300;
+
+}
+.who-we-are h3{
+   
+    padding: 5vw 5vw 3vw;
+    font-weight: 300;
+}
+
+
+
+.who-we-are p{
+   
+    padding: 0vw 5vw 8vw;
+    word-spacing: .6vw;
+    font-weight: 200;
+}
+
+.our-vision{
+    position: relative;
+    background-color: #f0cea0;
+    color: #443726;
+}
+
+.our-vision h3{
+   
+    padding: 5vw 5vw 3vw;
+    font-weight: 300;
+}
+
+
+
+.our-vision p{
+   
+    padding: 0vw 5vw 8vw;
+    word-spacing: .6vw;
+    font-weight: 200;
+}
+
+
+.core-value h3{
+   
+    padding: 5vw 5vw 3vw;
+    font-weight: 300;
+    color: #8b8b8b;
+
+}
+
+
+
+.core-value p{
+   
+    padding: 0vw 5vw 8vw;
+    word-spacing: .6vw;
+    font-weight: 200;
+    color: #8b8b8b;
+
+}
+
+.custom-shape-divider-bottom-1698066035 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1698066035 svg {
+    position: relative;
+    display: block;
+    width: calc(117% + 1.3px);
+    height: 99px;
+}
+
+.custom-shape-divider-bottom-1698066035 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+.custom-shape-divider-bottom-1698068953 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1698068953 svg {
+    position: relative;
+    display: block;
+    width: calc(152% + 1.3px);
+    height: 60px;
+}
+
+.custom-shape-divider-bottom-1698068953 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+@media (max-width:600px) {
+
+
+.who-we-are h3{
+   
+    padding: 5vw 5vw 3vw;
+}
+
+
+
+.who-we-are p{
+   
+    padding: 0vw 2vw 25vw;
+    word-spacing: .2vw;
+}
+
+
+
+.our-vision h3{
+   
+    padding: 5vw 5vw 3vw;
+}
+
+
+
+.our-vision p{
+   
+    padding: 0vw 2vw 20vw;
+    word-spacing: .2vw;
+}
+    
+
+.core-value h3{
+   
+    padding: 5vw 5vw 3vw;
+}
+
+
+
+.core-value p{
+   
+    padding: 0vw 2vw 20vw;
+    word-spacing: .2vw;
+}
+}

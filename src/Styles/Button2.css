@@ -1,0 +1,43 @@
+
+
+
+  .button-86 {
+
+    width: 10vw;
+    height: 2.9vw;
+    font-size: 16px;
+    background: black;
+    border: none;
+    position: relative;
+    color: #f0f0f0;
+    cursor: pointer;
+    border: 1px solid #6e6e73;
+    border-radius: .4vw;
+    transition: all ease-in-out .4s;
+
+  }
+
+  .button-86:hover{
+     background: #5db9ac;
+     color: rgb(255, 255, 255);
+     transform: translateY(-4px);
+    }
+
+
+    @media (max-width:600px) {
+
+      .button-86 {
+
+        width: 32vw;
+        height: 8vw;
+        font-size: 16px;
+        border-radius: 1vw;
+    
+    
+      }
+      
+
+
+
+
+    }

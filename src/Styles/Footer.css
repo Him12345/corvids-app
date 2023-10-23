@@ -1,0 +1,96 @@
+
+.footer-outer h4 {
+  font-weight: 400;
+  color: black;
+}
+
+.facebook1 {
+  color: #0866ff;
+
+  cursor: pointer;
+  transition: all ease-in-out .3s;
+}
+
+.facebook1:hover{
+
+    transform: translateY(-5px);
+
+}
+.linkdin1 {
+  color: #0072b1;
+
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+.linkdin1:hover {
+  transform: translateY(-5px);
+
+}
+.twitter1 {
+  color: #00acee;
+
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+.twitter1:hover {
+  transform: translateY(-5px);
+
+}
+
+.youtube1 {
+  color: #cd201f;
+
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+.youtube1:hover {
+  transform: translateY(-5px);
+
+}
+
+.img-container img {
+  height: 7vw;
+  transition: all ease-in-out .4s;
+  cursor: pointer;
+}
+
+.img-container img:hover{
+  transform: translateY(-10px);
+}
+.footer-links {
+  text-decoration: none;
+  /* color: white; */
+  color: black;
+  font-weight: 200;
+  transition: all ease-in-out 0.3s;
+}
+
+.footer-links:hover {
+  color: #707070;
+}
+
+.footer-link-heading {
+  color: rgb(255, 255, 255);
+}
+
+.footer-copyright {
+  color:#707073;
+  font-size: 1.1vw;
+  font-weight: 300;
+}
+
+@media (max-width: 600px) {
+  /* Your styles for medium screens go here */
+
+  .img-container img {
+    height: 15vw;
+  }
+
+  .link-section{
+      padding-left: 2vw;
+  }
+
+  .footer-copyright {
+    font-size: 3vw;
+  }
+}

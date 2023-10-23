@@ -1,0 +1,75 @@
+.contact-banner{
+    border: 2px solid black;
+    height: 20vh;
+    background-color: black;
+}
+
+.contact-banner h2{
+  
+    font-weight: 900;
+
+/* color: linear-gradient(36deg, rgba(79,177,176,1) 0%, rgba(189,177,110,1) 50%, rgba(247,178,98,1) 100%); */
+}
+
+.form-wrapper{
+    padding: 3vw;
+    width: 80%;
+    box-shadow: .3vw .3vw 1vw .1vw;
+}
+
+.form-wrapper input{
+    padding: .8vw;
+    margin-top: 1vw;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+
+.form-wrapper textarea{
+    margin-top: 1vw;
+    padding: 1vw;
+    outline: none;
+    margin-bottom: 2vw;
+}
+
+.form-wrapper h1{
+  font-weight: 300;
+}
+
+
+.breadcrumb-white .breadcrumb-item {
+    color: white;
+  }
+  
+
+  
+
+@media (max-width:600px) {
+
+ 
+
+    .contact-banner{
+        border: 2px solid black;
+        height: 10vh;
+        background-color: black;
+    }
+   
+
+
+    .form-wrapper{
+        padding: 2vw;
+        width: 100%;
+    }
+    
+    .form-wrapper input{
+        padding: 1vw;
+        margin-top: 1vw;
+    }
+
+    .form-wrapper input{
+        padding: 1vw;
+        margin-top: 3vw;
+    }
+    
+}

@@ -1,0 +1,26 @@
+.Btn{
+    border-radius: .5vw;
+    transition: all ease .6s;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 1vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-weight: 700;
+    letter-spacing: 1px ;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(36deg, rgba(79,177,176,1) 0%, rgba(189,177,110,1) 50%, rgb(252, 176, 89) 100%);
+
+
+
+ 
+
+}
+
+.Btn:hover{
+  color: white;
+  background: rgb(0, 0, 0);
+
+
+}

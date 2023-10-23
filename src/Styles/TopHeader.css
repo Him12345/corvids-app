@@ -1,0 +1,86 @@
+
+.outer{
+    background-color: #010913;
+    
+    
+}
+
+
+.icons{
+    font-size: 1.8vw;
+ 
+}
+
+.top-header-text{
+    color: white;
+    font-weight: 400;
+}
+
+
+.facebook {
+    color: white;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+.facebook:hover {
+    color: #0866FF; 
+  transform: translateY(-5px);
+
+}
+
+.linkdin{
+    color: white;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+
+}
+.linkdin:hover{
+    color: #0072b1; 
+  transform: translateY(-5px);
+
+
+}
+.twitter{
+
+    color: white;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+
+}
+.twitter:hover{
+    color: #00acee; 
+  transform: translateY(-5px);
+
+
+}
+
+.youtube{
+
+    color: white;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+
+}
+.youtube:hover{
+    color: #CD201F; 
+  transform: translateY(-5px);
+
+
+}
+
+
+
+
+
+@media (max-width:600px) {
+    /* Your styles for medium screens go here */
+
+    .icons{
+        font-size: 5vw;
+        color: white;
+    }
+ 
+
+
+  }

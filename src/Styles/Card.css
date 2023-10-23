@@ -1,0 +1,65 @@
+.Card{
+    height: 50vh;
+ 
+    border-radius: .8vw;
+    overflow: hidden;
+    transition: all ease-in-out .4s;
+    cursor: pointer;
+}
+.Card:hover{
+
+    transform: scale(1.1);
+    box-shadow: 5px 6px 10px;
+}
+
+.img img{
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+    
+}
+
+
+
+.title{
+    padding: 1vw;
+    margin-top: 3vw;
+
+    
+}
+
+.title h4{
+    font-weight: 500;
+
+
+}
+
+.title p{
+    font-weight: 200;
+    word-spacing: 1px ;
+
+    
+
+}
+
+
+
+
+@media  (max-width:600px) {
+    
+    .Card{
+        height: 40vh;
+        width: 30vh;
+        border: 1px solid #6e6e73;
+        border-radius: 1vw;
+        margin-bottom: 2vw;
+     
+      
+    }
+
+
+
+
+
+}

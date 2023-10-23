@@ -1,0 +1,54 @@
+.NavBar{
+    border: 1px solid black;
+
+}
+
+
+.navbar-links .links{
+ list-style: none;
+ padding: 1vw;
+}
+
+.navbar-img img{
+   height: 3.5vw;
+}
+
+
+
+.custom-nav-link {
+    color: black; /* Reset the color to its initial value */
+    transition: color 0.2s; /* Add a smooth transition effect for the color change */
+  
+    /* Define the hover color here */
+ 
+  }
+  
+
+  .custom-nav-link:hover {
+    color: #c52400; /* Change this to your desired hover color */
+  }
+
+.nav-color{
+    /* background-color: rgb(255, 255, 255); */
+
+    background: rgba(255, 255, 255, 0.836);
+}
+
+
+.btnn:hover{
+    background-color: #cacaca;
+
+}
+
+
+
+
+@media (max-width:600px) {
+    /* Your styles for medium screens go here */
+    .navbar-img img{
+        height: 10vw;
+     }
+    
+
+
+  }

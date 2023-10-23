@@ -1,0 +1,376 @@
+
+
+
+  .banner-outer{
+    font-family: 'Lato', sans-serif;
+   
+  }
+
+
+  .banner-outer h5{
+      font-weight: 600;
+      padding-bottom: 1vw;
+      color: #5db9ac;
+
+  }
+
+  .banner-outer h1{
+      font-weight: 300;
+    
+  }
+
+
+
+  .banner-outer p{
+    font-weight: 200;
+    font-size: 1.3vw;
+}
+.banner-outer img{
+    height: 30vw;
+    width: 40vw;
+    border-radius: 1vw;
+}
+
+.custom-shape-divider-top-1697787784 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1697787784 svg {
+    position: relative;
+    display: block;
+    width: calc(134% + 1.3px);
+    height: 51px;
+}
+
+.custom-shape-divider-top-1697787784 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+.below-banner{
+
+   color: rgb(255, 255, 255);
+   /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+   background-color: #5db9ac;
+   padding: 3vw;
+
+   /* -webkit-clip-path:ellipse(70% 59% at 50% 40%);
+    clip-path:ellipse(70% 59% at 50% 40%); */
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+
+
+
+}
+
+
+.below-banner .para{
+    padding: 2vw;
+    font-weight: 200;
+    font-size: 1.1vw;
+    word-spacing: 5px;
+
+}
+.data .icon{
+    font-size: 4vw;
+}
+
+.data h1{
+ font-weight: 900;
+}
+
+.data p{
+    font-weight: 400;
+   }
+.below-banner .heading{
+    width: 100%;
+}
+
+.below-banner .data{
+    width: 100%;
+}
+.below-banner h2{
+    font-weight: 400;
+    font-size: 2vw;
+  padding: 2vw;
+  padding-bottom: 2vw;
+  padding-right: 2vw;
+  padding-left: 2vw;
+
+ 
+}
+
+@media (max-width:600px) {
+    .banner-outer p{
+        font-size:4vw;
+        text-align: center;
+        margin-top: 2vw;
+    }
+
+    .banner-outer img{
+        height: 60vw;
+       width: 100%;
+    }
+
+    .below-banner h4{
+        font-size: 5vw;
+    }
+
+    .banner-outer h1{
+        text-align: center;
+    }
+
+
+    .below-banner h2{
+        font-weight: 500;
+        font-size: 6vw;
+         padding-top: 5vw;
+    
+     
+    }
+    .below-banner .para{
+        padding: 1vw;
+        font-weight: 300;
+        font-size: 4vw;
+        word-spacing: 3px;
+    }
+
+    .below-banner .para p{
+        padding: 2.5vw;
+       
+    }
+    
+}
+
+
+/* ---------------------------feature section--------------------- */
+
+
+
+
+
+
+.feature-section h1{
+      font-weight: 300;
+      font-size: 2.5vw;
+}
+
+.feature-section h2{
+    font-weight: 300;
+    font-size: 1.1vw;
+    padding: 1vw;
+
+}
+
+
+.feature-section p{
+    padding: 1vw;
+    font-weight: 200;
+    font-size: 1.1vw;
+    word-spacing: 4px;
+}
+
+
+.feature-icons{
+
+    font-weight: 200;
+    font-size: 1vw;
+
+}
+
+
+@media (max-width:600px) {
+ 
+
+    .feature-section h1{
+        font-weight: 300;
+        font-size: 4vw;
+        padding-top: 6vw;
+        font-style: italic;
+  }
+  
+  .feature-section h2{
+      font-weight: 300;
+      font-size: 5vw;
+      padding: 1vw;
+      padding-top: 10vw;
+
+      
+       
+  }
+  
+  
+  .feature-section p{
+      padding: 1vw;
+      font-weight: 200;
+      font-size: 4vw;
+      word-spacing: 3px;
+      padding-top: 5vw;
+  }
+  
+  
+  .feature-icons{
+  
+      font-weight: 200;
+      font-size: 4vw;
+  
+  }
+
+    
+}
+     /* --------------------module Overview starts-------------------------------- */
+
+     .module-section h1{
+         font-weight: 300;
+
+    }
+
+
+     @media (max-width:600px) {
+ 
+        .module-section{
+             padding-top: 10vw;
+
+        }
+
+      
+        
+    }
+
+
+
+     /* --------------------module Overview ends-------------------------------- */
+
+
+
+
+     /* ----------- IS Corvids CLOUD-BASED SCHOOL MANAGEMENT SOFTWARE SECURE?------------- */
+        
+     .secure-section .step-container{
+         width: 60%;
+         padding: 1vw;
+     }
+     .secure-section {
+       background-color: #eceaea;
+       position: relative;
+       overflow: hidden;
+       background-size: cover;
+    }
+
+  
+     .secure-section h6{
+         font-weight: 400;
+         color: #B73854;
+     }
+
+     .secure-section h2{
+      font-weight: 700;
+      padding-top: 1vw;
+      color: #424245;
+    }
+
+
+    .secure-section h5{
+        font-weight: 700;
+               color: #6e6e73;
+
+      }
+
+      .secure-section p{
+        font-weight: 300;
+        color: #6e6e73;
+      }
+  
+
+    .step .step-container{
+        border-radius: 1vw;
+        box-shadow: 1px 1px 1px;
+        border: 1px solid  #6e6e73 ;
+
+        color: white;
+        cursor: pointer;
+        transition: all ease-in-out .3s;
+        transition: all ease-in-out .4s;
+    }
+
+    .step .step-container:hover{
+
+        transform: translate3d(5px, 5px, 5px);
+    }
+
+
+    .secure-section img{
+        border-radius:2vw ;
+      
+         height: 40vw;
+    }
+
+    .custom-shape-divider-top-1697806795 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-top-1697806795 svg {
+        position: relative;
+        display: block;
+        width: calc(202% + 1.3px);
+        height: 52px;
+        transform: rotateY(180deg);
+    }
+    
+    .custom-shape-divider-top-1697806795 .shape-fill {
+        fill: #FFFFFF;
+    }
+
+
+
+    .custom-shape-divider-bottom-1697809693 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+    
+    .custom-shape-divider-bottom-1697809693 svg {
+        position: relative;
+        display: block;
+        width: calc(158% + 1.3px);
+        height: 34px;
+        transform: rotateY(180deg);
+    }
+    
+    .custom-shape-divider-bottom-1697809693 .shape-fill {
+        fill: #FFFFFF;
+    }
+
+@media (max-width:600px) {
+    
+    .secure-section .step-container{
+        width: 80%;
+        padding: 3vw;
+    }
+
+    .secure-section img{
+        margin-top: 3vw;
+        height: 60vw;
+        border-radius:2vw ;
+   }
+
+    
+}
+
+     /* ----------- IS Corvids CLOUD-BASED SCHOOL MANAGEMENT SOFTWARE SECURE?------------- */
